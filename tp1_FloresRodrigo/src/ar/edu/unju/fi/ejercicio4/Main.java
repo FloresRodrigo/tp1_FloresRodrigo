@@ -14,6 +14,8 @@ public class Main {
 			num = scanner.nextInt();
 		}while(num <0 || num>10);
 		
+		scanner.close();
+		
 		int contador = 1;
 		int resultado = 1;
 		
@@ -28,7 +30,6 @@ public class Main {
 		
 		System.out.println("El factorial de "+num+" es: "+resultado);
 		
-		scanner.close();
 	}
 
 }

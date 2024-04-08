@@ -12,6 +12,7 @@ public class Main {
 		int  num;
 		
 		num = scanner.nextInt();
+		scanner.close();
 		
 		if((num % 2) == 0) {
 			num = num * 2;
@@ -20,7 +21,6 @@ public class Main {
 		}
 		
 		System.out.println("Resultado: "+num);
-		scanner.close();
 	}
 
 }
