@@ -38,7 +38,6 @@ public class Main {
 			System.out.println("Precio con descuento del producto: "+producto.calcularDescuento());
 			System.out.println("*----------------------*");
 		}
-		
 		scanner.close();
 	}
 }
